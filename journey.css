@@ -1,0 +1,21 @@
+.journey-steps {
+  display: grid;
+  grid-template-columns: 140px;
+  grid-template-rows: repeat(1, auto);
+  grid-auto-flow: column;
+  font-size: 12px;
+  width: fit-content;
+}
+.journey-step-chevron {
+  height: 70px;
+  width: 140px;
+  background-image: url('journey-chevron.svg');
+  background-size: cover;
+  display: grid
+}
+.journey-step-chevron > span {
+  display: inline-block;
+  align-self: center;
+  padding: 3px 17px 3px 23px;
+  width: 75%;
+}
